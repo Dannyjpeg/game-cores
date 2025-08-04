@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio: Adivinhe a Cor!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Adivinhe a Cor!</h1>
+      <div class="scoreboard">
+        <span>Pontos: <b id="score">0</b></span>
+        <span>Rodada: <b id="round">1</b></span>
+      </div>
+    </div>
+    <p>O código da cor é:</p>
+    <div id="color-code" class="color-code-display">#??????</div>
+    <div id="options-container" class="options-container"></div>
+    <p id="feedback-message" class="feedback"></p>
+    <button id="reset-button" class="reset-btn">Próxima Rodada</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
